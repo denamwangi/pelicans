@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <g>
+    <path d="M300 400 Q280 350 250 400 Q250 450 300 450 Q350 450 350 400 Q350 350 300 400" fill="#fff" stroke="#000" stroke-width="2"/>
+    <path d="M275 360 Q260 340 240 360 Q220 380 200 360 Q180 340 160 360 Q140 380 120 370 Q100 360 80 370" fill="#000" />
+    <circle cx="200" cy="340" r="12" fill="#fff"/>
+    <circle cx="200" cy="340" r="6" fill="#000"/>
+    
+    <path d="M375 450 Q370 470 400 480 Q430 490 450 470 Q470 450 460 430 Q440 410 425 440" fill="#f9f" stroke="#000" stroke-width="2"/>
+    <path d="M460 420 L480 410 Q495 380 460 370 L445 380" fill="#fff" stroke="#000" stroke-width="2"/>
+    
+    <path d="M500 420 L530 380 Q540 360 510 340 L500 350" fill="#fff" stroke="#000" stroke-width="2"/>
+    <path d="M500 400 Q490 380 470 400 Q450 420 450 440 Q470 460 500 440" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+    
+    <path d="M600 350 Q650 330 670 360 Q700 400 640 440 Q580 480 550 430" fill="#000" />
+    
+    <text x="350" y="50" font-family="Arial" font-size="24" fill="#000">Cat Riding a Unicorn</text>
+  </g>
+</svg>

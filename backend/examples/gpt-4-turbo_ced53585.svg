@@ -1,0 +1,38 @@
+```xml
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+  <!-- Bicycle -->
+  <g id="bicycle">
+    <!-- Frame -->
+    <line x1="120" y1="240" x2="220" y2="300" stroke="black" stroke-width="4"/>
+    <line x1="220" y1="300" x2="320" y2="300" stroke="black" stroke-width="4"/>
+    <line x1="220" y1="300" x2="220" y2="220" stroke="black" stroke-width="4"/>
+    <line x1="220" y1="220" x2="140" y2="220" stroke="black" stroke-width="4"/>
+    <line x1="140" y1="220" x2="120" y2="240" stroke="black" stroke-width="4"/>
+
+    <!-- Wheels -->
+    <circle cx="120" cy="300" r="40" stroke="black" fill="none" stroke-width="4"/>
+    <circle cx="320" cy="300" r="40" stroke="black" fill="none" stroke-width="4"/>
+  </g>
+
+  <!-- Pelican -->
+  <g id="pelican">
+    <!-- Body -->
+    <ellipse cx="220" cy="200" rx="50" ry="30" fill="white"/>
+    <!-- Beak -->
+    <path d="M230 190 L280 180 L230 210 Z" fill="orange"/>
+    <!-- Wing -->
+    <path d="M180 190 Q200 160 220 220 L180 220 Z" fill="#BFBFBF"/>
+    <!-- Eye -->
+    <circle cx="210" cy="190" r="5" fill="black"/>
+    <!-- Legs -->
+    <line x1="210" y1="230" x2="210" y2="300" stroke="black" stroke-width="4"/>
+    <line x1="230" y1="230" x2="230" y2="300" stroke="black" stroke-width="4"/>
+  </g>
+
+  <!-- Combine Pelican and Bicycle -->
+  <g>
+    <use href="#bicycle"/>
+    <use href="#pelican"/>
+  </g>
+</svg>
+```

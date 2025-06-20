@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+  
+  <g id="bicycle">
+    <circle cx="120" cy="280" r="40" fill="#222"/>
+    <circle cx="280" cy="280" r="40" fill="#222"/>
+    <rect x="80" y="220" width="240" height="10" fill="#888"/>
+    <polygon points="180,220 220,220 200,170" fill="#888"/>
+    <rect x="190" y="140" width="10" height="80" fill="#888"/>
+    <rect x="140" y="230" width="120" height="10" fill="#888"/>
+  </g>
+
+  <g id="pelican">
+    <path d="M180,190 Q210,170 220,150 Q230,130 260,150 Q300,180 200,230 Q150,230 130,200 Q120,190 140,160 Q160,130 180,190" fill="#FFF" stroke="#333" stroke-width="4"/>
+    <circle cx="180" cy="160" r="10" fill="#333"/>
+    <path d="M190,230 Q215,225 240,215" fill="none" stroke="#F90" stroke-width="4"/>
+    <path d="M205,240 Q225,235 240,215" fill="none" stroke="#F90" stroke-width="4"/>
+  </g>
+</svg>

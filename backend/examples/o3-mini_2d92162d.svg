@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <circle id="wheel" cx="0" cy="0" r="50" />
+  </defs>
+  <g id="bicycle" stroke="slategray" stroke-width="3" fill="none">
+    <!-- Rear Wheel -->
+    <use xlink:href="#wheel" transform="translate(120,300)" />
+    <!-- Front Wheel -->
+    <use xlink:href="#wheel" transform="translate(280,300)" />
+    <!-- Bicycle Frame -->
+    <line x1="120" y1="300" x2="200" y2="300" />
+    <line x1="200" y1="300" x2="280" y2="300" />
+    <line x1="200" y1="300" x2="180" y2="250" />
+    <line x1="280" y1="300" x2="300" y2="270" />
+    <line x1="300" y1="270" x2="290" y2="260" />
+  </g>
+  <g id="pelican">
+    <!-- Pelican Body -->
+    <ellipse cx="180" cy="240" rx="20" ry="15" fill="white" stroke="black" stroke-width="2" />
+    <!-- Pelican Head -->
+    <circle cx="205" cy="230" r="10" fill="white" stroke="black" stroke-width="2" />
+    <!-- Pelican Beak -->
+    <polygon points="210,230 240,225 210,235" fill="goldenrod" stroke="black" stroke-width="2" />
+    <!-- Pelican Wing -->
+    <path d="M165,240 Q155,260 175,260" fill="none" stroke="black" stroke-width="2" />
+  </g>
+</svg>

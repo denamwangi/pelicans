@@ -1,0 +1,32 @@
+Here is the SVG of a cat riding a bicycle:
+
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(50 50)">
+    <g transform="scale(0.5)">
+      <path d="M-20 -30a20 20 0 0 1 40 0v60a20 20 0 0 1 -40 0z" fill="#999" />
+      <path d="M0 -10a10 10 0 0 1 20 0v40a10 10 0 0 1 -20 0z" fill="#fff" />
+      <g transform="translate(0 -20)">
+        <circle cx="0" cy="0" r="10" fill="#333" />
+        <circle cx="0" cy="0" r="5" fill="#fff" />
+      </g>
+      <g transform="translate(20 -20)">
+        <circle cx="0" cy="0" r="10" fill="#333" />
+        <circle cx="0" cy="0" r="5" fill="#fff" />
+      </g>
+      <path d="M-30 10h60v20h-60z" fill="#333" />
+      <g transform="translate(0 30)">
+        <path d="M-40 -20a40 40 0 0 1 80 0v40a40 40 0 0 1 -80 0z" fill="#999" />
+        <path d="M-30 -10a30 30 0 0 1 60 0v20a30 30 0 0 1 -60 0z" fill="#fff" />
+        <g transform="translate(-20 0)">
+          <circle cx="0" cy="0" r="10" fill="#333" />
+          <circle cx="0" cy="0" r="5" fill="#fff" />
+        </g>
+        <g transform="translate(20 0)">
+          <circle cx="0" cy="0" r="10" fill="#333" />
+          <circle cx="0" cy="0" r="5" fill="#fff" />
+        </g>
+        <path d="M-20 10h40v20h-40z" fill="#333" />
+      </g>
+    </g>
+  </g>
+</svg>

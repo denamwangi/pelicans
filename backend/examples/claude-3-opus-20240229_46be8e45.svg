@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <circle id="wheel" cx="0" cy="0" r="30" fill="none" stroke="#333" stroke-width="8"/>
+  </defs>
+  
+  <g transform="translate(200, 270)">
+    <use href="#wheel" transform="translate(-80, 0)"/>
+    <use href="#wheel" transform="translate(80, 0)"/>
+    
+    <path d="M-90,0 L-45,-15 L45,-15 L90,0" fill="none" stroke="#333" stroke-width="6"/>
+    <rect x="-15" y="-30" width="30" height="15" fill="#888"/>
+    
+    <path d="M-45,-15 L-45,15 L-30,15 L-30,-15 Z" fill="#888"/>
+    <path d="M30,-15 L30,15 L45,15 L45,-15 Z" fill="#888"/>
+    
+    <path d="M-15,-40 C-20,-40 -20,-50 -15,-50 L15,-50 C20,-50 20,-40 15,-40 Z" fill="#FFF"/>
+  </g>
+  
+  <path d="M145,260 C140,235 175,220 175,200 C175,180 180,150 195,140 C210,130 240,125 270,140 C300,155 300,190 310,200 C320,210 350,210 350,230 C350,250 335,270 300,270 C260,270 235,255 225,245 C210,230 160,235 145,260 Z" fill="#EEE" stroke="#333" stroke-width="4"/>
+  
+  <path d="M185,235 C190,225 200,225 205,230 L210,235 C215,240 215,250 205,250 L185,250 C175,250 180,245 185,235 Z" fill="orange" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="240" cy="170" r="8" fill="#333"/>
+  
+  <path d="M250,150 C240,165 230,165 220,150" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <circle id="body" cx="180" cy="220" r="50" fill="#F0E68C" />
+    <rect id="bike" x="125" y="250" width="110" height="10" fill="#A0522D" />
+    <ellipse id="wheel" cx="140" cy="260" rx="15" ry="15" fill="#333" />
+  </defs>
+  
+  <g id="pelican">
+    <circle cx="200" cy="150" r="30" fill="#D3D3D3" />
+    <path d="M200 180 L190 220 L200 220 L210 180 Z" fill="#FFD700" />
+    <path d="M190 220 Q200 240 210 220" fill="none" stroke="#000" />
+    <line x1="170" y1="150" x2="150" y2="160" stroke="#A0522D" stroke-width="3" />
+  </g>
+  
+  <use xlink:href="#body" />
+  <use xlink:href="#bike" />
+  <use xlink:href="#wheel" />
+  <use xlink:href="#wheel" x="255" />
+</svg>

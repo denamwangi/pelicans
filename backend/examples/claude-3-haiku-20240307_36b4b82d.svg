@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 400">
+  <g transform="translate(100, 100)">
+    <g transform="rotate(20)">
+      <path d="M60 40 C60 20, 80 0, 100 0 S140 20, 140 40 V80 H60 Z" fill="#e8a87c" />
+      <path d="M90 90 C90 70, 110 50, 130 50 S170 70, 170 90 V120 H90 Z" fill="#e3ccb8" />
+      <g transform="translate(20, 30)">
+        <path d="M0 0 C0 -20, 20 -40, 40 -40 S80 -20, 80 0 V30 H0 Z" fill="#1b1b1b" />
+        <path d="M20 40 C20 20, 40 0, 60 0 S100 20, 100 40 V60 H20 Z" fill="#1b1b1b" />
+      </g>
+    </g>
+    <g transform="translate(0, 140)">
+      <path d="M0 0 C0 -20, 20 -40, 40 -40 S80 -20, 80 0 V80 H0 Z" fill="#1b1b1b" />
+      <path d="M20 80 C20 60, 40 40, 60 40 S100 60, 100 80 V120 H20 Z" fill="#1b1b1b" />
+    </g>
+  </g>
+</svg>

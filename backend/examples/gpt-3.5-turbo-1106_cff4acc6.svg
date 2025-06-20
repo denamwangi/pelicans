@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <circle id="body" cx="150" cy="200" r="60" fill="#7fc8f8" />
+    <circle id="head" cx="190" cy="150" r="40" fill="#ffffff" />
+    <ellipse id="eye" cx="200" cy="140" rx="5" ry="10" fill="#333333" />
+    <path id="beak" d="M190,165 L180,175 L200,175 Z" fill="#ffcc66" />
+    <line id="leg1" x1="130" y1="240" x2="120" y2="270" stroke="#e67300" stroke-width="3" />
+    <line id="leg2" x1="170" y1="240" x2="160" y2="270" stroke="#e67300" stroke-width="3" />
+    <path id="bicycle" d="M100,240 L120,240 L130,210 L170,210 L180,240 L200,240" fill="none" stroke="#666666" stroke-width="5" />
+    <circle id="wheel1" cx="130" cy="240" r="20" fill="#cccccc" />
+    <circle id="wheel2" cx="170" cy="240" r="20" fill="#cccccc" />
+  </defs>
+
+  <g id="pelican">
+    <use xlink:href="#body" />
+    <use xlink:href="#head" />
+    <use xlink:href="#eye" />
+    <use xlink:href="#beak" />
+    <use xlink:href="#leg1" />
+    <use xlink:href="#leg2" />
+  </g>
+
+  <g id="bicycle">
+    <use xlink:href="#bicycle" />
+    <use xlink:href="#wheel1" />
+    <use xlink:href="#wheel2" />
+  </g>
+</svg>

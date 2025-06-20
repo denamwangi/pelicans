@@ -1,0 +1,32 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <circle id="wheel" cx="0" cy="0" r="20" fill="#555" />
+    <path id="bike-frame" d="M100 300 C120 260, 160 260, 180 300 
+                              L160 300 L180 200 L190 200" 
+          fill="none" stroke="#444" stroke-width="6" />
+  </defs>
+  
+  <g id="bicycle">
+    <g transform="translate(100, 0)">
+      <use xlink:href="#wheel" transform="translate(0, 0)" />
+      <use xlink:href="#wheel" transform="translate(140, 0)" />
+      <path d="M100 300 C120 260, 140 260, 160 300" 
+            fill="none" stroke="#444" stroke-width="6" />
+      <path d="M160 300 L160 220" fill="none" stroke="#444" stroke-width="6" />
+      <line x1="160" y1="220" x2="180" y2="200" 
+            stroke="#444" stroke-width="6" />
+    </g>
+  </g>
+
+  <g id="pelican" transform="translate(160, 160)">
+    <ellipse cx="0" cy="-40" rx="25" ry="15" fill="#fff" />
+    <ellipse cx="10" cy="-45" rx="6" ry="6" fill="#fff" />
+    <ellipse cx="-10" cy="-45" rx="6" ry="6" fill="#fff" />
+    <path d="M-25 -40 C-30 -30, -20 -20, -15 -40" fill="#fff" />
+    <path d="M6 -45 C6 -50, 0 -50, 0 -45 C0 -35, 5 -25, 0 -30" 
+          fill="#ffde00" />
+    <circle cx="0" cy="-40" r="5" fill="#000" />
+  </g>
+</svg>
+```

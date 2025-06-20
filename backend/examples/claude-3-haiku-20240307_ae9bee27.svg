@@ -1,0 +1,29 @@
+Here is the SVG code for a pelican riding a bicycle:
+
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bikeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#333" />
+      <stop offset="100%" stop-color="#666" />
+    </linearGradient>
+    <linearGradient id="pelicanGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#87ceeb" />
+      <stop offset="100%" stop-color="#add8e6" />
+    </linearGradient>
+  </defs>
+
+  <g>
+    <g>
+      <rect x="50" y="300" width="300" height="50" fill="url(#bikeGradient)" />
+      <circle cx="100" cy="325" r="25" fill="#fff" />
+      <circle cx="300" cy="325" r="25" fill="#fff" />
+      <rect x="125" y="315" width="150" height="20" fill="url(#bikeGradient)" />
+    </g>
+    <g>
+      <path d="M200 100 Q220 150, 250 160 Q280 170, 300 130" fill="none" stroke="url(#pelicanGradient)" stroke-width="20" />
+      <ellipse cx="200" cy="100" rx="30" ry="20" fill="url(#pelicanGradient)" />
+      <ellipse cx="250" cy="160" rx="20" ry="30" fill="url(#pelicanGradient)" />
+      <ellipse cx="300" cy="130" rx="30" ry="20" fill="url(#pelicanGradient)" />
+    </g>
+  </g>
+</svg>

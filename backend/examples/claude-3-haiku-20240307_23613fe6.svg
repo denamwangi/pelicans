@@ -1,0 +1,21 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(250, 250)">
+    <g transform="scale(0.6)">
+      <g transform="rotate(15)">
+        <path d="M-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" fill="#FFCC99" />
+        <path d="M-80,0 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" fill="#FFFFFF" />
+        <path d="M-60,0 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0" fill="#FFCC99" />
+        <path d="M-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0" fill="#FFFFFF" />
+        <path d="M-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" fill="#FFCC99" />
+        <path d="M0,0 a0,0 0 1,0 0,0 a0,0 0 1,0 0,0" fill="#000000" />
+        <g transform="translate(-50,-100)">
+          <path d="M0,0 c20,20 40,40 80,40 c40,0 60,-20 80,-40 c20,20 40,40 80,40 c40,0 60,-20 80,-40 c20,20 40,40 80,40 c40,0 60,-20 80,-40" fill="none" stroke="#000000" stroke-width="10" />
+          <g transform="translate(0,120)">
+            <path d="M-50,0 c0,50 100,50 100,0" fill="none" stroke="#000000" stroke-width="10" />
+            <path d="M-25,-25 l50,50 l50,-50" fill="none" stroke="#000000" stroke-width="10" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

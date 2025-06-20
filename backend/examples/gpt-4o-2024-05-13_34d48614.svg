@@ -1,0 +1,30 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="bike">
+      <circle cx="100" cy="300" r="50" stroke="black" stroke-width="4" fill="none"/>
+      <circle cx="300" cy="300" r="50" stroke="black" stroke-width="4" fill="none"/>
+      <line x1="100" y1="300" x2="200" y2="200" stroke="black" stroke-width="4"/>
+      <line x1="300" y1="300" x2="200" y2="200" stroke="black" stroke-width="4"/>
+      <line x1="200" y1="200" x2="200" y2="150" stroke="black" stroke-width="4"/>
+      <line x1="200" y1="150" x2="150" y2="100" stroke="black" stroke-width="4"/>
+      <circle cx="200" cy="150" r="5" fill="black"/>
+      <line x1="200" y1="150" x2="170" y2="190" stroke="black" stroke-width="4"/>
+    </g>
+  </defs>
+  
+  <g id="pelican">
+    <ellipse cx="200" cy="100" rx="60" ry="40" fill="#f2f2f2" stroke="black" stroke-width="2"/>
+    <ellipse cx="200" cy="100" rx="20" ry="30" fill="#6699cc"/>
+    <ellipse cx="180" cy="90" rx="5" ry="10" fill="black"/>
+    <polygon points="250,100 270,90 260,110" fill="orange"/>
+    <path d="M 160 130 Q 200 160 240 130" fill="#f2f2f2" stroke="black" stroke-width="2"/>
+    <path d="M 160 130 Q 180 100 200 130" fill="#f2f2f2"/>
+    <ellipse cx="190" cy="190" rx="15" ry="30" fill="#f2f2f2" stroke="black" stroke-width="2"/>
+    <ellipse cx="210" cy="190" rx="10" ry="20" fill="#f2f2f2" stroke="black" stroke-width="2"/>
+  </g>
+  
+  <use href="#bike" x="0" y="0"/>
+  <use href="#pelican" x="0" y="0"/>
+</svg>
+```

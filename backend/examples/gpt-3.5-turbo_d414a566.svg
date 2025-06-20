@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <defs>
+        <circle id="body" cx="150" cy="200" r="50" fill="#f7ca18" />
+        <circle id="head" cx="150" cy="160" r="30" fill="#ffffff" />
+        <circle id="eye" cx="160" cy="150" r="5" fill="#000000" />
+        <rect id="bicycle" x="120" y="200" width="60" height="5" fill="#000000" />
+        <circle id="wheel" cx="135" cy="205" r="15" fill="#000000" />
+        <circle id="pedal" cx="135" cy="215" r="3" fill="#ffffff" />
+    </defs>
+    <g id="pelican">
+        <use href="#body" />
+        <use href="#head" />
+        <use href="#eye" />
+        <use href="#eye" x="140" />
+        <line x1="145" y1="165" x2="160" y2="180" stroke="#000000" />
+        <use href="#bicycle" />
+        <use href="#wheel" />
+        <use href="#wheel" x="185" />
+        <line x1="132" y1="205" x2="140" y2="215" stroke="#000000" />
+        <line x1="140" y1="205" x2="132" y2="215" stroke="#000000" />
+        <use href="#pedal" />
+        <use href="#pedal" x="157" />
+    </g>
+</svg>

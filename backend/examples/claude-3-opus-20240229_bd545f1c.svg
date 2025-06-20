@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E6E6FA"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#sky)"/>
+  
+  <g id="ground">
+    <rect x="0" y="320" width="400" height="80" fill="#8B4513"/>
+    <rect x="0" y="340" width="400" height="60" fill="#A0522D"/>
+  </g>
+
+  <g id="bicycle">
+    <circle cx="135" cy="270" r="40" fill="#222"/>
+    <circle cx="285" cy="270" r="40" fill="#222"/>
+    <rect x="105" y="230" width="160" height="10" fill="#888"/>
+    <rect x="135" y="210" width="10" height="90" fill="#888"/>
+    <polygon points="280,215 295,215 295,235 280,235" fill="#888"/>
+  </g>
+
+  <g id="pelican">
+    <path d="M205,150 Q210,120 230,110 Q250,100 270,110 Q290,120 305,150 L320,190 Q330,210 300,210 L230,210 Q200,210 190,190 Z" fill="#FFF"/>
+    <ellipse cx="220" cy="140" rx="12" ry="18" fill="#FFA500"/>
+    <ellipse cx="280" cy="140" rx="12" ry="18" fill="#FFA500"/>
+    <path d="M180,170 Q195,185 210,185 Q225,185 240,170" fill="#FFA500"/>
+    <circle cx="200" cy="160" r="4" fill="#000"/>
+    <circle cx="240" cy="160" r="4" fill="#000"/>
+    <path d="M210,170 L220,140 M230,170 L220,140" stroke="#000" stroke-width="2"/>
+  </g>
+</svg>

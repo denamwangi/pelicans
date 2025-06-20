@@ -1,0 +1,18 @@
+Here is the SVG code for a pelican riding a bicycle:
+
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="bicycle-frame" d="M80 240c0-40 20-80 60-80 40 0 60 40 60 80 0 40-20 80-60 80-40 0-60-40-60-80z" fill="#333333" />
+    <path id="bicycle-wheel" d="M60 280a20 20 0 1 0 40 0 20 20 0 1 0-40 0z" fill="#666666" />
+    <path id="pelican-body" d="M300 120c0 40-20 80-60 100-40 20-100 20-140 0-40-20-60-60-60-100 0-40 20-80 60-100 40-20 100-20 140 0 40 20 60 60 60 100z" fill="#87ceeb" />
+    <path id="pelican-beak" d="M260 160c0 20-10 40-30 50-20 10-50 10-70 0-20-10-30-30-30-50 0-20 10-40 30-50 20-10 50-10 70 0 20 10 30 30 30 50z" fill="#ffd700" />
+  </defs>
+
+  <g transform="translate(50, 50)">
+    <use href="#bicycle-frame" />
+    <use href="#bicycle-wheel" transform="translate(0, 40)" />
+    <use href="#bicycle-wheel" transform="translate(100, 40)" />
+    <use href="#pelican-body" transform="translate(200, 100)" />
+    <use href="#pelican-beak" transform="translate(250, 150)" />
+  </g>
+</svg>

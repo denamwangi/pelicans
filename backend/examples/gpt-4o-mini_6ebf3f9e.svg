@@ -1,0 +1,40 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 200 200"
+    width="200"
+    height="200"
+>
+    <g>
+        <circle cx="50" cy="150" r="20" fill="black" />
+        <circle cx="150" cy="150" r="20" fill="black" />
+        <path
+            d="M50 150 Q30 130 50 120 Q70 110 50 90"
+            fill="none"
+            stroke="black"
+            stroke-width="2"
+        />
+        <path
+            d="M150 150 Q170 130 150 120 Q130 110 150 90"
+            fill="none"
+            stroke="black"
+            stroke-width="2"
+        />
+        <rect x="60" y="100" width="80" height="10" fill="black" />
+        <rect x="80" y="80" width="40" height="20" fill="black" />
+        <ellipse cx="100" cy="60" rx="20" ry="30" fill="#A0522D" />
+        <circle cx="90" cy="55" r="5" fill="white" />
+        <circle cx="110" cy="55" r="5" fill="white" />
+        <path
+            d="M90 65 Q100 75 110 65"
+            fill="none"
+            stroke="black"
+            stroke-width="2"
+        />
+        <path
+            d="M90 100 Q100 80 110 100"
+            fill="none"
+            stroke="black"
+            stroke-width="2"
+        />
+    </g>
+</svg>
