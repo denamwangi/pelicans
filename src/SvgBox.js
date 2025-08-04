@@ -7,11 +7,10 @@ export default function SvgBox({ model, prompt }) {
   const [blobUrl, setBlobUrl] = useState();
 
   useEffect(() => {
-    console.log('?????')
     async function fetchSvg() {
       const params = new URLSearchParams();
       params.append("prompt", prompt);
-    params.append("model", model);
+      params.append("model", model);
 
       const apiUrl = `http://127.0.0.1:8000/get_svg/?${params.toString()}`;
       console.log("Fetching from:", apiUrl);
@@ -27,7 +26,7 @@ export default function SvgBox({ model, prompt }) {
       } catch (err) {
         console.error("Failed to fetch SVG", err);
       } finally {
-        console.log('finally', model)
+        console.log("finally", model);
         setIsLoading(false);
       }
     }
@@ -35,19 +34,18 @@ export default function SvgBox({ model, prompt }) {
     fetchSvg();
   }, []);
 
-
   return isLoading ? (
-      <Card>
+    <Card>
       <Box
         sx={{
-            width: "400px",
-            height: "400px",
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
+          width: "400px",
+          height: "400px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
         }}
-        >
-          <CircularProgress />
+      >
+        <CircularProgress />
       </Box>
     </Card>
   ) : (

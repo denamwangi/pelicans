@@ -14,18 +14,18 @@ all_models = {
 }
 
 
-# 'claude-4',
-# 'claude-opus-4-20250514',
-# 'claude-sonnet-4-20250514',
-# 'claude-3.7',
-# 'claude-3-7-sonnet-20250219',
-# 'claude-3.5',
-# 'claude-3-5-sonnet-20240620',
-# 'claude-3',
-# 'claude-3-haiku-20240307',
-# 'claude-3-opus-20240229',
-# 'claude-3-sonnet-20240229',
-# 'claude-2',
+'claude-4',
+'claude-opus-4-20250514',
+'claude-sonnet-4-20250514',
+'claude-3.7',
+'claude-3-7-sonnet-20250219',
+'claude-3.5',
+'claude-3-5-sonnet-20240620',
+'claude-3',
+'claude-3-haiku-20240307',
+'claude-3-opus-20240229',
+'claude-3-sonnet-20240229',
+'claude-2',
 
 
 

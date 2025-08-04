@@ -10,7 +10,6 @@ import uuid
 import re
 
 
-
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
@@ -44,9 +43,7 @@ example_svg = """
   <!-- Tail -->
   <path d="M40 110 L20 130 L40 120 Z" fill="#888" stroke="#555" stroke-width="2"></path>
 </svg>"""
-data_example = [
-    {"model": 'openasd', "svg_text": example_svg}
-]
+data_example = [{"model": "openasd", "svg_text": example_svg}]
 
 system_prompt = """
     You are an expert SVG generator. Create clean, well-structured SVG code based on user descriptions.
@@ -66,9 +63,11 @@ system_prompt = """
     Focus on creating visually appealing, functional SVGs that accurately represent the user's description.
 """
 
+
 def extract_svg(text):
-    match = re.search(r'<svg[^>]*>.*?</svg>', text, re.DOTALL)
+    match = re.search(r"<svg[^>]*>.*?</svg>", text, re.DOTALL)
     return match.group(0) if match else None
+
 
 def fetch_llm_response(prompt, model):
     messages = [
@@ -94,9 +93,10 @@ def fetch_llm_response(prompt, model):
     except Exception as e:
         print(e)
         raise
-        
+
 
 import time
+
 
 @app.get("/get_svg/")
 def get_svg(
@@ -104,7 +104,7 @@ def get_svg(
     model: str = Query(...),
 ):
     print("*" * 50)
-    
+
     svg = None
     try:
         svg = fetch_llm_response(prompt, model)
@@ -112,13 +112,10 @@ def get_svg(
 
     except:
         pass
-    
+
     time.sleep(5)
 
     return Response(content=svg, media_type="image/svg+xml")
-    # print('.'*50)
-    # print('example_svg', example_svg)
-    # return Response(content=example_svg, media_type="image/svg+xml")
 
 
 if __name__ == "__main__":
